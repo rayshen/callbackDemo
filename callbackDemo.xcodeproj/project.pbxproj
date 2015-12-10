@@ -15,6 +15,7 @@
 		645A66391C10064E00BD34DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645A66371C10064E00BD34DC /* LaunchScreen.storyboard */; };
 		645A66441C10064F00BD34DC /* callbackDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 645A66431C10064F00BD34DC /* callbackDemoTests.m */; };
 		645A664F1C10064F00BD34DC /* callbackDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 645A664E1C10064F00BD34DC /* callbackDemoUITests.m */; };
+		645A665E1C10067000BD34DC /* DataProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 645A665D1C10067000BD34DC /* DataProcess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		645A664A1C10064F00BD34DC /* callbackDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = callbackDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645A664E1C10064F00BD34DC /* callbackDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = callbackDemoUITests.m; sourceTree = "<group>"; };
 		645A66501C10064F00BD34DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645A665C1C10066F00BD34DC /* DataProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProcess.h; sourceTree = "<group>"; };
+		645A665D1C10067000BD34DC /* DataProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProcess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				645A662C1C10064E00BD34DC /* AppDelegate.h */,
 				645A662D1C10064E00BD34DC /* AppDelegate.m */,
+				645A665C1C10066F00BD34DC /* DataProcess.h */,
+				645A665D1C10067000BD34DC /* DataProcess.m */,
 				645A662F1C10064E00BD34DC /* ViewController.h */,
 				645A66301C10064E00BD34DC /* ViewController.m */,
 				645A66321C10064E00BD34DC /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				645A66311C10064E00BD34DC /* ViewController.m in Sources */,
+				645A665E1C10067000BD34DC /* DataProcess.m in Sources */,
 				645A662E1C10064E00BD34DC /* AppDelegate.m in Sources */,
 				645A662B1C10064E00BD34DC /* main.m in Sources */,
 			);

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataProcess.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<callBackDelegate>
 
 
 @end
